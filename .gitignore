@@ -1,0 +1,41 @@
+﻿# Gerador de Lista de Material
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Executavel (gerar_executavel.bat / PyInstaller)
+build/
+dist/
+*.spec
+
+# Modelo da folha de rosto: guarda a RELACAO DE PROJETOS (CA, obras, clientes) e as logos dos clientes
+modelos/*.xlsx
+modelos/*.xlsm
+
+# Dados de obra e listas geradas
+*.csv
+*.txt
+!requirements.txt
+*.xlsx
+*.xlsm
+*.xls
+*.pdf
+*.zip
+*.rar
+*.7z
+
+# Temporarios do Excel e do Windows
+~$*
+Thumbs.db
+desktop.ini
+*.lnk
+*.tmp
+*.bak
+*.log
+
+# Editores
+.vscode/
+.idea/

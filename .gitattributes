@@ -1,0 +1,6 @@
+﻿# Fim de linha: os .bat precisam de CRLF
+* text=auto
+*.bat text eol=crlf
+*.png binary
+*.ico binary
+*.xlsx binary
